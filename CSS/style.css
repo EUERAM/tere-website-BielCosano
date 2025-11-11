@@ -1,0 +1,337 @@
+:root {
+	--white: rgba(255,255,255,1);
+	--green: rgba(117,191,122,1);
+	--black: rgba(0,0,0,1);
+	--light-gray: rgba(158,157,162,1);
+	--gray: rgba(139,139,165,1);
+	--dark-gray: rgba(39,32,66,1);
+	--background: rgba(249,249,249,1);
+}
+.big-title {
+	font-size: 64px;
+	font-family: Inter;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 65.91px;
+	text-decoration: none;
+	text-transform: none;
+}
+.normal {
+	font-size: 18px;
+	font-family: Inter;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 26px;
+	text-decoration: none;
+	text-transform: none;
+}
+.description-hero {
+	font-size: 24px;
+	font-family: Inter;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 33px;
+	text-decoration: none;
+	text-transform: none;
+}
+.button {
+	font-size: 24px;
+	font-family: Inter;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.section-title {
+	font-size: 47px;
+	font-family: Inter;
+	font-weight: 900;
+	font-style: normal;
+	line-height: 50.35px;
+	text-decoration: none;
+	text-transform: none;
+}
+.section-subtitle {
+	font-size: 22px;
+	font-family: Inter;
+	font-weight: 800;
+	font-style: normal;
+	line-height: 50.35px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-small-button {
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-small {
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+
+header {
+    padding-top: 80px;
+}
+.container {
+    width: 1280px;
+    margin: auto; /*place div into the middle*/
+}  
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    /* gap: 36px; */
+}
+.menu a {
+    color: var(--dark-gray, #272042);
+    /* Normal */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    padding: 10px 30px;
+    text-decoration: none; /*get rid of underline*/
+    transition: all 0.3s;
+}
+.menu a:hover {
+    color: var(--Green, #75bf7a);
+}
+.menu .btn-help {
+    border-radius: 5px;
+    background: var(--Green, #75bf7a);
+    color: white;
+}
+.menu .btn-help:hover {
+    color: white;
+    background-color: black;
+}
+
+/*HERO*/
+
+.hero{
+    padding: 50px;
+    margin-left: 150;
+    margin-right: 80;
+}
+
+.hero .description-hero{
+    color: var(--light-gray);
+}
+
+.hero .col-1{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+.hero .botton{
+    padding-top: 63px;
+    margin-left: 0;
+    display: flex;
+    gap: 30px;
+}
+.hero .app{
+    width: 37px;
+    height: 37px;
+    align-items: center;
+}
+
+
+.hero .botton-dimensions{
+    height: 67px;
+    gap: 10px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--dark-gray);
+    color: white;
+}
+
+
+
+/*LINK*/
+
+.link{
+    padding-top: 125px;
+    height: 157px;
+    align-items: center;
+}
+
+.link .container{
+    background-color: var(--green);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.link .description-hero{
+    width: 240px;
+    padding-left: 70px;
+    padding-right: 125px;
+    color: #FFF;
+}
+
+.fill-button{
+    color: #DADADA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+    height: 67px;
+    
+    padding-right :196px;
+    padding-left: 35px;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.link .button{
+    color: white;
+    background-color: var(--dark-gray);
+    display: flex;
+    height: 66.773px;
+    padding: 0px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*HOW IT WORKS*/
+
+.how-it-works {
+    padding-top: 80px;
+    width: 1060px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.how-it-works .section-title{
+    text-align: center;
+    margin: auto;
+}
+
+.how-it-works .step {
+    margin-bottom: 50px;
+}
+
+.how-it-works .description-hero {
+    padding-top: 25px;
+    text-align: center;
+    width: 620px;
+    margin: auto;
+    color: var(--light-gray);
+}
+
+.how-it-works .normal{
+    width: 290px;
+    color: var(--light-gray);
+}
+
+.how-it-works .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.how-it-works .text-right{
+    margin-left: auto;
+    text-align: right;
+}
+
+.how-it-works .text-right .number {
+    margin-left:auto;
+}
+
+.how-it-works .number {
+    background-image: url(/img/step.png);
+    width: 62px;
+    height: 62px;
+    /*TEXT STYLES*/
+    color: #75bf7a;
+    text-align: center;
+    font-family: Inter;
+    font-size: 34.108px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 37.019px; /* 108.537% */
+    /*to get numbers in the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TERE BENEFITS*/
+
+.tere-benefits .section-title{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.tere-benefits .line{
+    display: flex;
+    width: 1060px;
+    height: 302.82px;
+    padding: 24px 38px;
+    align-items: center;
+    gap: 262px;
+    flex-shrink: 0;
+    background-color: #f8f8f8;
+    margin-bottom: 65px;
+}
+.tere-benefits .number-benefits{
+    color: #75BF7A;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.tere-benefits .name-benefits{
+    color: #000;
+    font-family: Inter;
+    font-size: 33.943px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -50px;
+    line-height: 32.5px; /* 95.749% */
+    width: 230px;
+}
+
+.tere-benefits .normal{
+    color: var(--light-gray);
+    margin-top: 15px;
+    width: 320px;
+}
+
+.tere-benefits .flex{
+    align-items: center;
+    gap: 30px;
+    margin-bottom: -100px;
+}
+
+.tere-benefits .displaced{
+    margin-left: 220px;
+}

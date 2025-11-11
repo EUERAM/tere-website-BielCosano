@@ -1,94 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tere Ride</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firts webpage Tere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
 
-<body>
-    <!-- Creem la estructura HTML bàsica de Tere Web -->
+  <body>
+
+    <!--HEADER-->
+
     <header>
-        <div class="container flex">
-            <div class="logo">
-                <img src="img/Logo.png" alt="Logo Ride">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">How Tere works</a>
-                    </li>
-                    <li>
-                        <a href="#">Tere benefits</a>
-                    </li>
-                    <li>
-                        <button>Help Center</button>
-                    </li>
-                </ul>
-            </div>
+      <div class="container flex">
+        <div class="logo">
+          <img src="img/Logo.png" alt="Logo of Tere" />
         </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="http://eram.cat">Home</a>
+            </li>
+            <li>
+              <a href="http://eram.cat">How Tere works</a>
+            </li>
+            <li>
+              <a href="http://eram.cat">Tere Benefits</a>
+            </li>
+            <li>
+              <a class="btn-help" href="https://youtu.be/dQgtUByOGYA?si=4cErLN0cxmKNpv-B">Help center</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <section class="hero"></section>
-    <section class="link"></section>
-    <section class="how-it-works">
+
+
+    <!--HERO-->
+
+    <section class="hero">
         <div class="container">
-            <h2 class="section-title">How <span class="green">Tere</span> Works</h2>
-            <p class="description-hero">Download and install the tere app. Enter your phone number and make your user
-                account. when approved you may start driving.</p>
-            <div class="row">
-                <div class="column">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <h3 class="section-subtitle">Request a Ride</h3>
-                        <p class="normal">Have to reach office or going for shopping ?
-                            Just put your current location and destination and search a ride that suits you</p>
+            <div class="row flex">
+                <div class="col-1">
+                    <div class="big-title">DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</div>
+                    <p class="description-hero">
+                        Its simple and its free. Play your part in reducing Carbon Footprint and help Mother Nature to sustain its beauty. So what are you waiting for ? Lets ride together</p>
+                <div class="botton">
+                    <div class="botton-dimensions">
+                        <div class="app"><img src="IMG/android.svg" alt="GooglePlay"></div>
+                        <p class="button">DOWNLOAD</p>
                     </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <h3 class="section-subtitle">Request a Ride</h3>
-                        <p class="normal">Have to reach office or going for shopping ?
-                            Just put your current location and destination and search a ride that suits you</p>
+                    <div class="botton-dimensions">
+                        <div class="app"><img src="IMG/apple.svg" alt="AppStore"></div>
+                        <p class="button">DOWNLOAD</p>
                     </div>
                 </div>
-                <div class="column">
-                    <img src="img/works.png">
                 </div>
-                <div class="column">
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <h3>Request a Ride</h3>
-                        <p>Have to reach office or going for shopping ?
-                            Just put your current location and destination and search a ride that suits you</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">4</div>
-                        <h3>Request a Ride</h3>
-                        <p>Have to reach office or going for shopping ?
-                            Just put your current location and destination and search a ride that suits you</p>
-                    </div>
+                <div class="col-2">
+                    <img src="IMG/image-hero.png" alt="imatge-hero">
                 </div>
-            </div>
-            <div class="dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
             </div>
         </div>
     </section>
-    <section class="benefits"></section>
-    <footer></footer>
-</body>
 
+
+    <!--LINK-->
+    <section class="link">
+      <div class="container flex">
+        <p class="description-hero">Let’s go. Get a link to download the app.</p>
+        <div class="fill-button">Enter mobile phone number</div>
+        <div class="button ">APPLY TO DRIVE</div>
+      </div>
+    </section>
+
+
+    <!--HOW IT WORKS-->
+
+    <section class="how-it-works">
+        <div class="section-title">HOW<span style= "color: var(--green)"> TERE </span>WORKS</div>
+
+        <p class="description-hero">    
+          Download and install the Tere app. Enter your phone number and make
+          your user account. When approved, you may start driving.
+        </p>
+
+        <div class="row">
+          <div class="col text-right">
+
+            <div class="step">
+              <div class="number">1</div>
+              <div class="section-subtitle">REQUEST A RIDE</div>
+              <p class="normal">
+                Have to reach office or going for shopping ? Just put your
+                current location and destination and search a ride that suits
+                you
+              </p>
+            </div>
+
+            <div class="step">
+              <div class="number">3</div>
+              <div class="section-subtitle">INSTANT NOTIFICATIONS</div>
+              <p class="normal">
+                Get instant notifications for your rides and be in contact with
+                fellow riders all the time
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="IMG/works.png" alt="Tere image" />
+          </div>  
+          <div class="col">
+            <div class="step">
+              <div class="number">2</div>
+              <div class="section-subtitle">POST A RIDE</div>
+              <p class="normal">
+                Going somewhere but hate to travel alone - just post your ride
+                details and publish it
+              </p>
+            </div>
+            <div class="step">
+              <div class="number">4</div>
+              <div class="section-subtitle">CASHLESS PAYMENT</div>
+              <p class="normal">
+                Payment made easy by using your own Wallet - no more cash to
+                carry
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--TERE BENEFITS-->
+
+    <section class="tere-benefits">
+        <div class="container">
+          <h2 class="section-title"><span style="color: var(--green);">TERE </span>BENEFITS</h2>
+          <div class="line">
+                <span>
+                  <div class="flex">
+                            <h3 class="number-benefits">01.</h3>
+                            <h3 class="name-benefits">Flexible working hours</h3>
+                  </div>
+                  <p class="normal">You can decide when, and how much time you want to drive.</p>
+                </span>
+              <img src="IMG/benefit-1.png" alt="TIME">
+            </div>
+          <div class="line displaced">
+            <img src="IMG/benefit-2.png" alt="TIME">
+                <span>
+                  <div class="flex">
+                            <h3 class="number-benefits">02.</h3>
+                            <h3 class="name-benefits">Earnings</h3>
+                  </div>
+                  <p class="normal">By driving with tere you can earn more.</p>
+                </span>
+            </div>
+          <div class="line">
+                <span>
+                  <div class="flex">
+                            <h3 class="number-benefits">03.</h3>
+                            <h3 class="name-benefits">Customer support 24/7</h3>
+                  </div>
+                  <p class="normal">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</p>
+                </span>
+              <img src="IMG/benefit-3.png" alt="TIME">
+            </div>
+
+
+        
+
+          </div>
+        </div>
+    </section>
+    <footer></footer>
+    </body>
 </html>
